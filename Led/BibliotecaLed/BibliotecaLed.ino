@@ -10,10 +10,10 @@ void setup() {
 
 void loop() {
   led.acender();
-  Delay(100);
+  delay(100);
   led.apagar();
-  Delay(100);
+  delay(100);
   led.inverter();
-  DELAY(100);
+  delay(100);
   led.piscar(10, 5000);
 }
